@@ -1,0 +1,38 @@
+
+QUICK SETUP GUIDE:
+
+	1) downloads:
+I had a 64 bit eclipse (prob not too relevant yet) so I D/L'd 64 bit tortoiseSVN
+
+install that whatever way (I think i should have installed extra icons to look nicer). and then it should be ready to go/ always running, at least in windows explorer.
+
+
+
+	2) 
+
+
+
+
+X	3) to set up a new directory for linking to github:
+[WRONG! kinda]
+[This creates the repository here I believe by default! might be handy for local versioning, but i may as well use github]
+[verified- can "import" elsewhere on computer to get files from the above repository to wherever needed]. 
+create a new (empty!) folder. Go inside, and rightclick "tortoiseSVN -> create repository here"
+
+Then, rightclick "SVN checkout" 
+
+
+
+
+	4)to export/ send a local directory to github:
+
+
+
+-----------------------------------------
+
+GLOSSARY:
+
+"SVN Checkout" = essentially get/download latest working copy of project, to work on it. select a repository, and it will be copied to your selected/ current directory.
+
+
+
