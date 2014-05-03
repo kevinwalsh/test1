@@ -1,30 +1,37 @@
 
 QUICK SETUP GUIDE:
 
-	1) downloads:
+**	1) downloads:
 I had a 64 bit eclipse (prob not too relevant yet) so I D/L'd 64 bit tortoiseSVN
 
 install that whatever way (I think i should have installed extra icons to look nicer). and then it should be ready to go/ always running, at least in windows explorer.
 
 
+**	2) To "export" files/ download from a repository:
 
-	2) 
-
-
-
-
-X	3) to set up a new directory for linking to github:
-[WRONG! kinda]
-[This creates the repository here I believe by default! might be handy for local versioning, but i may as well use github]
-[verified- can "import" elsewhere on computer to get files from the above repository to wherever needed]. 
-create a new (empty!) folder. Go inside, and rightclick "tortoiseSVN -> create repository here"
-
-Then, rightclick "SVN checkout" 
+rightclick "tortoiseSVN -> export"
 
 
 
+**	3) to link to a repository (for easy sync/ commit):
+rightclick "SVN checkout"
+From here, new options will appear:
+(a) "SVN Update" to download the latest committed version from repository. (NB always do this first incase you overwrite later versions!)
+(b) "SVN commit" to save all your latest changes as the most up-to-date revision of the code base.
 
-	4)to export/ send a local directory to github:
+
+
+**	4) Creating a repository:
+can create an online one quite easily via github. 
+-go to homepage, click repositories tab, & click "new". choose a name, & description if needed. MUST be public with github free.
+-(initialising a readme is kinda pointless since its a weird file (readme.md).)
+
+-then to link to this repository, use the http address. (e.g. https://github.com/kevinwalsh/test1)
+
+
+-OR for a local repository, go to desired local [EMPTY] folder, and click "TortoiseSVN -> create repository here"
+note that this folder must be currently EMPTY, and not write-protected!
+
 
 
 
@@ -34,5 +41,10 @@ GLOSSARY:
 
 "SVN Checkout" = essentially get/download latest working copy of project, to work on it. select a repository, and it will be copied to your selected/ current directory.
 
+**"import" = actually uploads a file TO the repository!!! 
+	(I kinda assumed it would download FROM....)
+
+"export" = counterintuitive, but grabs all files FROM a repository for use.
+	-> NB usually does to a subfolder, but if necessary, it will write to wherever AND WILL OVERWRITE any duplicate files!!
 
 
