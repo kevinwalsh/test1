@@ -1,0 +1,1 @@
+GridX=4,GridY=5,StartX=0,StartY=0,StartDirection=N,ExitX=2,ExitY=4,MineX=2,MineY=2,MineX=1,MineY=4

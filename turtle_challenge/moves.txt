@@ -1,0 +1,1 @@
+Sequence={TurnL,TurnL,TurnL,TurnL,TurnL}Sequence={TurnR,TurnR,TurnR,TurnR,TurnR}Sequence={Forward,Forward,TurnL,Forward}Sequence={TurnR,Forward,Forward,Forward,Forward,TurnR,Forward,Forward,Forward,Forward,Forward,Forward,Forward,Forward,Forward,TurnR,Forward,TurnL}Sequence={TurnL,TurnL,Forward,Forward,Forward,Forward,Forward,Forward,TurnL,Forward,Forward,Forward,Forward,Forward}
